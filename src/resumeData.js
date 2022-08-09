@@ -1,30 +1,40 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
+    // HOME section
+    "imagebaseurl":"https://pat266.github.io/",
+    "name": "Pat Tran",
+    "pic": "images/profilepic.jpg",
+    "linkedinId":"pattran26",
+    "role": "BS Computer Science Student at Georgia Tech",
     "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/pattran26/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/pat266",
           "className":"fa fa-github"
         },
         {
           "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
+          "url":"mailto:pattran26@gmail.com",
+          "className":"fa fa-envelope"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    // ABOUT section
+    "aboutmes":[
+      "I am a master’s student in Computer Science (MSCS) with Machine Learning Specialization at Georgia Tech. I received my bachelor's degree in CS at Tech with a concentration in Intelligence and Info Internetworks. My passion lies primarily in building scalable and trustworthy AI solutions.",
+      "Driven to research on robust and cost-efficient ML models and apply them to industry-ready products and services, I worked as an AI intern at GliaCloud Co., Ltd., where I develop more robust and cost-efficient machine learning models for the flagship products GliaStudio and GliaStar. At work, I also gained hands-on experience in deploying containerized microservices, building CI/CI pipelines, creating back-end APIs unit/snapshot tests for the models.",
+      "I am a master’s student in Computer Science (MSCS) with Machine Learning Specialization at Georgia Tech. I received my bachelor's degree in CS at Tech with a concentration in Intelligence and Info Internetworks. My passion lies primarily in building scalable and trustworthy AI solutions.",
+      "In Spring 2022, I will join the Chu Data Lab at GT, researching weakly supervised entity matching under the supervision of Professor Xu Chu. I’m eager to learn and adapt to different environments and would love to further sharpen my skills in machine learning, data management, and back-end development.",
+      "Looking forward to connecting with you!"
+    ],
+    "address":"Atlanta, GA",
+    "email":"pattran26@gmail.com",
+
+    // RESUME Section
     "education":[
       {
         "UniversityName":"The LNM Insitute of Information Technology",
@@ -67,38 +77,6 @@ let resumeData = {
       },
       {
         "skillname":"Reactjs"
-      }
-    ],
-    "portfolio":[
-      {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      },
-      {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
-    ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
       }
     ]
   }
