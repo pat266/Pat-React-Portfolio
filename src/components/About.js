@@ -39,7 +39,9 @@ export default class About extends Component {
 
                      <div className="columns resume-link">
                         <p>
-                           <a href="./images/Tran_Pat_BS_2023.pdf" download="Pat_Resume.pdf" class="button" target="_blank">
+                           <a button class="button-84" role="button"
+                              href="./images/Tran_Pat_BS_2023.pdf"
+                              target="_blank">
                               <i class="fa fa-download"></i> Download Resume
                            </a>
                         </p>
