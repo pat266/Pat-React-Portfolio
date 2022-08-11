@@ -1,3 +1,4 @@
+Many features are inspired from https://github.com/achen353/achen353.github.io
 ## How to use
 1. Clone/Download the repo.
 2. Run  ``` npm install ```.

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -20,10 +21,13 @@ export default class Resume extends Component {
                       <h3>{item.UniversityName}</h3>
                       <p className="info">
                         {item.specialization}
-                        <span>&bull;</span> <em className="date">{item.MonthOfBeginning} {item.YearOfBeginning} - {item.MonthOfEnding} {item.YearOfEnding}</em></p>
-                      <p>
-                        {item.Achievements}
+                        <span>&bull;</span> <em className="date">{item.MonthOfBeginning} {item.YearOfBeginning} - {item.MonthOfEnding} {item.YearOfEnding}</em>
                       </p>
+                      <ul class="circle">
+                        {
+                          item.Description.map(txt => <li>{txt}</li>)
+                        }
+                      </ul>
                     </div>
                   </div>
                 )
@@ -43,7 +47,9 @@ export default class Resume extends Component {
                 return (
                   <div className="row item">
                     <div className="twelve columns">
-                      <h3>{item.ProjectName}</h3>
+                      <h3>
+                        <a href={item.ProjectLink} target="_blank"> {item.ProjectName} </a>
+                      </h3>
                       <p className="p-overview">
                         {item.ProjectOverview}
                       </p>
@@ -59,7 +65,7 @@ export default class Resume extends Component {
                         // only show if there is a link
                         item.ProjectImage.length > 0 &&
                         <div class="p-img">
-                          <img class="profile-pic" src={item.ProjectImage}></img>
+                          <img class="p-img" src={item.ProjectImage} loading="lazy" alt="Image of Project"></img>
                         </div>
                       }
                       
