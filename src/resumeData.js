@@ -25,7 +25,7 @@ let resumeData = {
     // ABOUT section
     "aboutmes":[
       "I am a senior student at Georgia Tech with concentrations in Information Internetworks and People. My passion lies primarily in backend development and building scalable projects.",
-      "I am driven to develop software to solve problems. For instance, one of my childhood games had a very slow website due to its poor front-end implementation, so I created a game launcher to directly call its APIs to log in and launch the game effortlessly. The game launcher also has many features, including an automatic captcha solver for the login process and an image translator to translate the in-game tasks and rewards, to improve my gaming experience.",
+      "I am driven to develop software to solve problems. For instance, one of my childhood games had a very slow website due to its poor front-end implementation, so I created a game launcher to directly call its APIs to log in and launch the game smoothly. The game launcher also has many features, including an automatic captcha solver for the login process and an image translator to translate the in-game tasks and rewards, to improve my gaming experience.",
       "I also have strong interpersonal, leadership, and communication skills. When I was a team leader for a team of 8 people to develop a chatbot, I was communicating with my teammates on the short and long-term goals, as well as spearheaded the development direction. Through this project, I learned how to collaborate with others and plan milestones effectively.",
       "My primary programming language is Java, and I have also had experience in other languages such as Python, C#, C, and HTML/CSS/JavaScript/React.js. I am eager to learn and adapt to different environments and would love to further sharpen my skills in data management, DevOps, and back-end development.",
       "Looking forward to connecting with you!",
@@ -131,7 +131,7 @@ let resumeData = {
       },
       {
         "ProjectName":"Drone Grocery Delivery",
-        "ProjectOverview":"Exploratory and experimental work on ITS-Chatbot to improve data labeling with topic modeling on DSP First textbook.",
+        "ProjectOverview":"Design and implement an online store system using the classical methodology for relational database development.",
         "MonthOfBeginning":"January",
         "YearOfBeginning":"2021",
         "MonthOfEnding":"May",
