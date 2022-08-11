@@ -2,7 +2,7 @@ let resumeData = {
     // HOME section
     "imagebaseurl":"https://pat266.github.io/",
     "name": "Pat Tran",
-    "pic": "images/profilepic.avif",
+    "pic": "images/profilepic.jpg",
     "linkedinId":"pattran26",
     "introduction": "I am a B.S. Computer Science Student at Georgia Tech. I enjoy learning about new technologies and creating software for personal usage.",
     "socialLinks":[
@@ -126,7 +126,7 @@ let resumeData = {
           "Create REST APIs with Flask for integration with other projects.",
           "Develop automated tests using PyTest and Flask-Testing to test JSON responses from the APIs.",
         ],
-        "ProjectImage":"./images/projects/chatbot_fall_2021.avif",
+        "ProjectImage":"./images/projects/chatbot_fall_2021.png",
         "ProjectLink":"https://github.gatech.edu/VIP-ITS/TutorBot",
       },
       {
@@ -141,7 +141,7 @@ let resumeData = {
           "Create MySQL stored procedures from the ER Diagram to insert, update, or delete the data inside of the appropriate table(s). Host it on AWS Relational Database Service for ease of accessibility.",
           "Utilize JavaFX to design the software interface and the MySQL Connector/J driver to connect the application to the Amazon database.",
         ],
-        "ProjectImage":"./images/projects/drone_grocery_erd.avif",
+        "ProjectImage":"./images/projects/drone_grocery_erd.png",
         "ProjectLink":"https://github.com/pat266/Drone_Grocery_Delivery",
       },
       {
@@ -156,7 +156,7 @@ let resumeData = {
           "Maximize the LDA’s topic coherence score and CorEx’s total correlation score by fine-tuning with a different number of topics and weight values, and various sets of weighted words.",
           "Utilize the topic model to predict which textbook section(s) are relevant to the user query.",
         ],
-        "ProjectImage":"./images/projects/chatbot_topic_modeling.avif",
+        "ProjectImage":"./images/projects/chatbot_topic_modeling.png",
         "ProjectLink":"https://github.gatech.edu/VIP-ITS/Chatbot-Spring-2021",
       },
     ],
