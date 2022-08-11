@@ -17,10 +17,10 @@ let resumeData = {
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
+          "name":"mail",
           "url":"mailto:pattran26@gmail.com",
           "className":"fa fa-envelope"
-        }
+        },
       ],
     // ABOUT section
     "aboutmes":[
