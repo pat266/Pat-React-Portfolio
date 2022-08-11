@@ -48,7 +48,7 @@ export default class Resume extends Component {
                   <div className="row item">
                     <div className="twelve columns">
                       <h3>
-                        <a href={item.ProjectLink} target="_blank"> {item.ProjectName} </a>
+                        <a href={item.ProjectLink} target="_blank" rel="noopener noreferrer"> {item.ProjectName} </a>
                       </h3>
                       <p className="p-overview">
                         {item.ProjectOverview}
@@ -65,7 +65,7 @@ export default class Resume extends Component {
                         // only show if there is a link
                         item.ProjectImage.length > 0 &&
                         <div class="p-img">
-                          <img class="p-img" src={item.ProjectImage} loading="lazy" alt="Image of Project"></img>
+                          <img class="p-img" src={item.ProjectImage} alt="Showcase the project"></img>
                         </div>
                       }
                       
@@ -110,7 +110,7 @@ export default class Resume extends Component {
           </div>
         </div>
 
-
+        {/*
         <div className="row skill">
 
           <div className="three columns header-col">
@@ -144,7 +144,7 @@ export default class Resume extends Component {
           </div>
 
         </div>
-
+        */}
       </section>
     );
   }

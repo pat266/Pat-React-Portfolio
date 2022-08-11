@@ -4,8 +4,7 @@ let resumeData = {
     "name": "Pat Tran",
     "pic": "images/profilepic.avif",
     "linkedinId":"pattran26",
-    "role": "B.S. Computer Science Student at Georgia Tech",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "introduction": "I am a B.S. Computer Science Student at Georgia Tech. I enjoy learning about new technologies and creating software for personal usage.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -25,11 +24,11 @@ let resumeData = {
       ],
     // ABOUT section
     "aboutmes":[
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis. At risus viverra adipiscing at in tellus integer feugiat scelerisque. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis. At risus viverra adipiscing at in tellus integer feugiat scelerisque. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis. At risus viverra adipiscing at in tellus integer feugiat scelerisque. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis. At risus viverra adipiscing at in tellus integer feugiat scelerisque. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim.",
-      "Looking forward to connecting with you!"
+      "I am a senior student at Georgia Tech with concentrations in Information Internetworks and People. My passion lies primarily in backend development and building scalable projects.",
+      "I am driven to develop software to solve problems. For instance, one of my childhood games had a very slow website due to its poor front-end implementation, so I created a game launcher to directly call its APIs to log in and launch the game effortlessly. The game launcher also has many features, including an automatic captcha solver for the login process and an image translator to translate the in-game tasks and rewards, to improve my gaming experience.",
+      "I also have strong interpersonal, leadership, and communication skills. When I was a team leader for a team of 8 people to develop a chatbot, I was communicating with my teammates on the short and long-term goals, as well as spearheaded the development direction. Through this project, I learned how to collaborate with others and plan milestones effectively.",
+      "My primary programming language is Java, and I have also had experience in other languages such as Python, C#, C, and HTML/CSS/JavaScript/React.js. I am eager to learn and adapt to different environments and would love to further sharpen my skills in data management, DevOps, and back-end development.",
+      "Looking forward to connecting with you!",
     ],
     "address":"Atlanta, GA",
     "email":"pattran26@gmail.com",
@@ -114,7 +113,7 @@ let resumeData = {
       },
       {
         "ProjectName":"TutorBot (ITS-Chatbot v2.0)",
-        "ProjectOverview":"Implement a new transformer-based approach and integrate with the TutorJS Project.",
+        "ProjectOverview":"Implement a new transformer-based approach and integrate it with the TutorJS Project.",
         "MonthOfBeginning":"August",
         "YearOfBeginning":"2021",
         "MonthOfEnding":"December",
@@ -189,6 +188,7 @@ let resumeData = {
         ],
       }
     ],
+    /** 
     "skillsDescription":"",
     "skills":[
       {
@@ -201,6 +201,7 @@ let resumeData = {
         "skillname":"Reactjs"
       }
     ]
+    */
   }
   
   export default resumeData
