@@ -18,7 +18,7 @@ let resumeData = {
         },
         {
           "name":"mail",
-          "url":"mailto:pattran26@gmail.com",
+          "url":"mailto:ptran74@gatech.edu",
           "className":"fa fa-envelope"
         },
       ],
@@ -31,7 +31,7 @@ let resumeData = {
       "Looking forward to connecting with you!",
     ],
     "address":"Atlanta, GA",
-    "email":"pattran26@gmail.com",
+    "email":"ptran74@gatech.edu",
 
     // RESUME Section
     "education":[
@@ -87,13 +87,27 @@ let resumeData = {
         "MonthOfEnding":"August",
         "YearOfEnding":"2022",
         "Description":[
-          "Design login and game windows with custom buttons in the title bar using the .NET Framework.",
-          "Utilize Tesseract OCR Engine to automatically solve the Captcha image to login with an accuracy rate of 86%.",
-          "Create a custom Snipping Tool to capture a selected part of the screen, and utilizes an ONNX formatted pre-trained model that was trained to recognize Chinese characters to extract text from the captured image.",
-          "Implement an algorithm to bulk translate text using the free translation APIs from the GTranslate package.",
+          "Train a Captcha solver model with PyTorch to achieve an accuracy rate of 92%.",
+          "Create a custom Snipping Tool to capture a selected part of the screen.",
+          "Utilizes an ONNX formatted pre-trained model to extract Chinese characters from a captured image.",
+          "Implement an algorithm for bulk text translation using APIs, and integrate the translated text as an overlay on the captured image.",
         ],
         "ProjectImage":"./images/projects/game_launcher_translation.gif",
         "ProjectLink":"https://github.com/pat266/game-launcher",
+      },
+      {
+        "ProjectName":"Terminal C1Games Competition Tracker",
+        "ProjectOverview":"A tracker to keep record of all algorithms and the best algorithm a user or team submitted in a specified competition.",
+        "MonthOfBeginning":"June",
+        "YearOfBeginning":"2022",
+        "MonthOfEnding":"August",
+        "YearOfEnding":"2022",
+        "Description":[
+          "Retrieve algorithms’ information from the Terminal’s APIs and process it to extract useful information.",
+          "Update the leaderboard local json files at a set interval of time to keep track of all submitted algorithms, even when they are removed from the live leaderboard.",
+        ],
+        "ProjectImage":"",
+        "ProjectLink":"https://github.com/pat266/competitions_tracking",
       },
       {
         "ProjectName":"TutorBot (ITS-Chatbot v2.1)",
@@ -103,9 +117,8 @@ let resumeData = {
         "MonthOfEnding":"May",
         "YearOfEnding":"2022",
         "Description":[
-          "Implement metrics such as F1, exact match, and semantic similarity to examine the model's performance.",
-          "Generate a dataset of nearly 6,000 generated questions and answers from the DSP First textbook to improve the pre-trained Transformers model (https://pat266.github.io/textbook_SQuAD_explore/).",
-          "Utilizes the generated dataset to fine-tune the pre-trained Question Answering model to increase its accuracy by 15% (https://huggingface.co/ptran74/DSPFirst-Finetuning-5).",
+          "Implement a test script that evaluates the model using F1, exact match, and semantic similarity as metrics.",
+          "Utillize a machine learning model to generate a dataset of nearly 6,000 questions and answers from the DSP First textbook to improve the accuracy of the pre-trained Transformers model by 15% (https://huggingface.co/ptran74/DSPFirst-Finetuning-5).",
           "Add CUDA support to increase the average computational speed from 15 seconds to 6 seconds.",
         ],
         "ProjectImage":"",
@@ -120,9 +133,8 @@ let resumeData = {
         "YearOfEnding":"2021",
         "Description":[
           "Enhance the accuracy of the existing Predictive model by incorporating the relevance metric when comparing the similarity between two documents.",
-          "Implement a new process using the BM25 algorithm to retrieve the top-n relevant documents to improve processing speed by 40% while retaining the same accuracy score.",
-          "Examine different Transformers pre-trained question-answering models using the Hugging Face library to find the best model to extract answers while balancing accuracy level and processing time.",
-          "Develop a web scraper to retrieve the top images result of the user query.",
+          "Implement the document retrieval algorithm called the Okapi BM25 algorithm to retrieve the top-n relevant documents to improve processing speed by 40% while retaining the same accuracy score.",
+          "Develop a web scraper to retrieve the top images result that are relevant to the user query.",
           "Create REST APIs with Flask for integration with other projects.",
           "Develop automated tests using PyTest and Flask-Testing to test JSON responses from the APIs.",
         ],
@@ -163,15 +175,28 @@ let resumeData = {
 
     "work":[
       {
-        "CompanyName":"ABC Home Health Care Services LLC ",
-        "title":"Home Health Aide",
-        "MonthOfBeginning":"September",
-        "YearOfBeginning":"2019",
-        "MonthOfEnding":"",
-        "YearOfEnding":"Present",
+        "CompanyName":"Publicis Sapient",
+        "title":"Software Engineer Intern",
+        "MonthOfBeginning":"June",
+        "YearOfBeginning":"2023",
+        "MonthOfEnding":"August",
+        "YearOfEnding":"2023",
         "Description":[
-          "Attending to one client at their home to ensure the living safest environment.",
-          "Improving the client’s quality of life by monitoring them closely",
+          "Design and implement solutions to a linear programming problem in Python to identify cost or volume-optimized transportation routes in the crude oil industry, increasing the efficiency of route analysis.",
+          "Effectively analyze and optimize over 100 transport routes, enabling the adaptation of input parameters as needed, resulting in more accurate and dynamic route planning.",
+        ],
+      },
+      {
+        "CompanyName":"Department of Natural Resources",
+        "title":"Software Development Intern",
+        "MonthOfBeginning":"September",
+        "YearOfBeginning":"2022",
+        "MonthOfEnding":"February",
+        "YearOfEnding":"2023",
+        "Description":[
+          "Collaborate with other developers to successfully redevelop and update a legacy project to ASP.NET Core 7 and modernize the SQL database to improve the application's overall performance and stability.",
+          "Redesign the User Interface using Bootstrap, AnchorJS, and Razor Pages to implement dark mode and anchor links, resulting in more modern, visually appealing, and user-friendly web pages.",
+          "Enhance the deployment pipeline (CI/CD) by implementing Playwright to perform end-to-end tests, parallelizing existing unit tests, and incorporating SonarCloud to track various code quality statistics.",
         ],
       },
       {
@@ -188,20 +213,6 @@ let resumeData = {
         ],
       }
     ],
-    /** 
-    "skillsDescription":"",
-    "skills":[
-      {
-        "skillname":"HTML5"
-      },
-      {
-        "skillname":"CSS"
-      },
-      {
-        "skillname":"Reactjs"
-      }
-    ]
-    */
   }
   
   export default resumeData
