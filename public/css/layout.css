@@ -241,9 +241,11 @@ ul#nav li.current a { color: #F06000; }
   outline: none;
   overflow: hidden;
   padding: 0 32px;
+  position: relative;
+  top: 0%;
   text-align: center;
   text-decoration: none;
-  transform: translate3d(0, 0, 0);
+  transform: translateY(190%);
   transition: all 150ms;
   vertical-align: baseline;
   white-space: nowrap;

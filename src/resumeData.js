@@ -44,7 +44,7 @@ let resumeData = {
         "YearOfEnding":"2023 (Projected)",
         "Description":[
           "Threads: Information Internetworks and People.",
-          "GPA: 3.80/4.0",
+          "GPA: 3.72/4.0",
           "Relevant Courses: Object-Oriented Design (Java), Data Structures and Algorithms (Java), System-Level Programming (Assembly & C), Database System (SQL).",
         ],
       },
